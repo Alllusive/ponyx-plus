@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ponyxplus:raw_tanzanite"
+  },
+  "result": "ponyxplus:cut_tanzanite",
+  "count": 1
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ponyxplus:raw_tanzanite"
+    },
+    "title": {
+      "translate": "advancements.story.obtain_raw_tanzanite.title"
+    },
+    "description": {
+      "translate": "advancements.story.obtain_raw_tanzanite.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "raw_tanzanite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ponyxplus:raw_tanzanite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "raw_tanzanite"
+    ]
+  ]
+}

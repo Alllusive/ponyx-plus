@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XNX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "ponyxplus:cut_tanzanite"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "ponyxplus:tanzanite_chestplate"
+  }
+}

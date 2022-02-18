@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ponyxplus",
+  "version": "${version}",
+
+  "name": "Ponyx+",
+  "description": "Vanilla Plus style mod",
+  "authors": [
+    "Allusive"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/ponyxplus/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.allusive.ponyxplus.PonyxPlus"
+    ]
+  },
+  "mixins": [
+    "ponyxplus.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

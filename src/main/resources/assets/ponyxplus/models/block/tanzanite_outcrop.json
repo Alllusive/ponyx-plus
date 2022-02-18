@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "ponyxplus:block/tanzanite_outcrop"
+  }
+}

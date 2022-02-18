@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "F#S",
+    " F "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:potion"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    },
+    "F": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result": {
+    "item": "ponyxplus:gel_block",
+    "count": 2
+  }
+}
