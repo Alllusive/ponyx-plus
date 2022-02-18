@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.allusive.ponyxplus.PonyxPlus"
+    ],
+    "client": [
+      "net.allusive.ponyxplus.PonyxPlus"
     ]
   },
   "mixins": [
