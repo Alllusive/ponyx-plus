@@ -6,7 +6,7 @@ import net.allusive.ponyxplus.item.ModItems;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.client.rendereregistry.v1.BlockEntityRendererRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.BlockEntityRendererRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.util.Identifier;
@@ -32,6 +32,6 @@ public class PonyxPlus implements ModInitializer, ClientModInitializer {
 	}
 	@Override
 	public void onInitializeClient() {
-		BlockEntityRendererRegistry.INSTANCE.register(BE_NETHER_CONDUIT, NetherConduitBlockEntityRenderer::new);
+		BlockEntityRendererRegistry.register(BE_NETHER_CONDUIT, NetherConduitBlockEntityRenderer::new);
 	}
 }
