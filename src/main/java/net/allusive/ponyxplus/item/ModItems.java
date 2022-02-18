@@ -57,9 +57,6 @@ public class ModItems {
             new ModArmorItem(ModArmourMaterials.TANZANITE, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ItemGroup.COMBAT)));
 
-    public static final Item ANCIENT_RELIC = registerItem("ancient_relic",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(PonyxPlus.MOD_ID, name), item);
