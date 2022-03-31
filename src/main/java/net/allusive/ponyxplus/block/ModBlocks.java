@@ -18,6 +18,9 @@ public class ModBlocks {
     public static final Block TANZANITE_OUTCROP = registerBlock("tanzanite_outcrop",
             new Block(FabricBlockSettings.of(Material.AMETHYST).hardness(2).requiresTool().nonOpaque()), ItemGroup.MISC);
 
+    public static final Block ENCHANTED_LEAVES = registerBlock("enchanted_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ItemGroup.MISC);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

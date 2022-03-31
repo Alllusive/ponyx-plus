@@ -12,8 +12,8 @@ import java.util.function.Supplier;
 
 public enum ModArmourMaterials implements ArmorMaterial {
 
-    TANZANITE("tanzanite", 42, new int[]{4, 7, 9, 5}, 28,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.8f, 1.0f, () -> Ingredient.ofItems(ModItems.CUT_TANZANITE));
+    TANZANITE("tanzanite", 42, new int[]{3, 7, 9, 4}, 25,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2.0f, 0.0f, () -> Ingredient.ofItems(ModItems.CUT_TANZANITE));
 
     private static final int[] BASE_DURABILITY;
     private final String name;

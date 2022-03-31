@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "ponyxplus:block/enchanted_leaves"
+  }
+}
